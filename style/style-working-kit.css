@@ -1,0 +1,393 @@
+/* main-style-start */
+@font-face {
+    font-family: 'Muller';
+    src: url(../font/Fontfabric\ -\ MullerRegular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(../font/Fontfabric\ -\ MullerBold.otf);
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Muller';
+    font-size: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+.buttons {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.forms {
+    font-weight: normal;
+}
+
+.wrapper {
+    display: block;
+    padding: 30px;
+}
+
+.wrapper--small {
+    margin-left: 50px;
+    width: 500px;
+}
+
+.wrapper--black {
+    width: 500px;
+    background-color: #000;
+}
+
+.box {
+    padding: 20px;
+    width: 100px;
+    background-color: #000;
+}
+
+.box--blu {
+    margin-left: 30px;
+    background-color: #46F4DB;
+}
+
+.box--red {
+    width: 500px;
+    background-color: #D13130;
+}
+
+.button {
+    padding: 25px 54px;
+    border-radius: 40px;
+}
+
+.button--medium {
+    padding: 15px 33px;
+    border-radius: 77px;
+}
+
+.button--small {
+    padding: 7px 20px;
+}
+
+.lable {
+    position: absolute;
+    top: 1px;
+    font-size: 12px;
+}
+
+.input {
+    width: 100%;
+}
+/* main-style-end */
+
+/* авторы-start */
+.authors {
+    display: inline-block;
+    padding: 2px 12px;
+    text-align: center;
+}
+
+.authors:hover {
+    color: #46F4DB;
+}
+
+.authors:focus {
+    padding: 0 10px;
+    border: 2px solid #57D272;
+    color: #000;
+}
+
+.authors:active {
+    padding: 2px 12px;
+    border: none;
+    color: #57D272;
+}
+/* авторы-end */
+
+/* кошелёк-start */
+.wallet {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+.wallet:hover {
+    background-color: #46F4DB;
+    color: #000;
+}
+
+.wallet:focus {
+    background-color: #46F4DB;
+    color: #000;
+}
+
+.wallet:active {
+    background-color: #57D272;
+    color: #000;
+}
+/* кошелёк-end */
+
+/* купить-start */
+.buy {
+    background: linear-gradient(#46F4DB 27.08%, #57D272 100%)
+}
+
+.buy:hover {
+    background: #46F4DB;
+}
+
+.buy:focus {
+    background: #46F4DB;
+}
+
+.buy:active {
+    background: #57D272;
+}
+/* купить-end */
+
+/* стать автором-start */
+.authorship {
+    padding: 25px 5px;
+    border-radius: 40px;
+    background: linear-gradient(#46F4DB 27.08%, #57D272 100%);
+    color: #fff;
+}
+
+.authorship__text {
+    padding: 20px 48px;
+    border-radius: 40px;
+    background: #000;
+}
+
+.authorship:hover {
+    padding: 25px 54px;
+    border-radius: 40px;
+    background: linear-gradient(#46F4DB 27.08%, #57D272 100%);
+    color: #000;
+}
+
+.authorship__text:hover {
+    padding: 0;
+    border-radius: none;
+    background: none;
+}
+
+.authorship:focus {
+    padding: 25px 54px;
+    border-radius: 40px;
+    background: #46F4DB;
+    color: #000;
+}
+
+.authorship__text:focus {
+    padding: 0;
+    border-radius: none;
+    background: none;
+}
+
+.authorship:active {
+    padding: 25px 54px;
+    border-radius: 40px;
+    background: #57D272;
+    color: #000;
+}
+
+.authorship__text:active {
+    padding: 0;
+    border-radius: none;
+    background: none;
+}
+/* стать автором-end */
+
+/* сделать ставку-start */
+.bet {
+    padding: 25px 74px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+    background: #46F4DB;
+}
+
+.bet:hover {
+    background: linear-gradient(#46F4DB 27.08%, #57D272 100%);
+}
+
+.bet:focus {
+    background: linear-gradient(#46F4DB 27.08%, #57D272 100%);
+}
+
+.bet:active {
+    background: #57D272;
+}
+/* сделать ставку-end */
+
+/* все аукционы-start */
+.auctions {
+    padding: 20px 75px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid #46F4DB;
+}
+
+.auctions:hover {
+    background-color: #46F4DB;
+}
+
+.auctions:focus {
+    background-color: #46F4DB;
+}
+
+.auctions:active {
+    border: 5px solid #57D272;
+    background-color: #57D272;
+}
+/* все аукционы-end */
+
+/* number-start */
+.number {
+    border: 2px solid #D13130;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+}
+
+.number:hover {
+    border-color: #FF6F6F;
+    background-color: #FF6F6F;
+}
+
+.number:focus {
+    border-color: #FF6F6F;
+    background-color: #FF6F6F;
+}
+
+.number:active {
+    background-color: #D13130;
+    border-color: #D13130;
+}
+/* number-end */
+
+/* reference-start */
+.reference {
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.reference:hover {
+    opacity: 0.5;
+}
+
+.reference:focus {
+    padding: 0 8px;
+    border: 2px solid #000;
+}
+
+.reference:active {
+    padding: 0 10px;
+    border: none;
+    opacity: 0.3;
+}
+/* reference-end */
+
+/* input-name-start */
+.input-name {
+    padding: 23px 0px 23px 30px;
+    border-radius: 40px;
+    background-color: #000;
+}
+
+.input-name__input::placeholder {
+    color: #EDEDF2;
+}
+
+.input-name:focus-within {
+    padding: 21px 0px 21px 30px;
+    border: 2px solid #000;
+    background-color: transparent;
+}
+
+.input-name__input:focus::placeholder {
+    color: #000;
+}
+
+.input-name:active {
+    padding: 21px 0px 21px 30px;
+    border: 2px solid #000;
+    background-color: transparent;
+}
+
+.input-name__input:active::placeholder {
+    color: #000;
+}
+/* input-name-end */
+
+/* image-form-start */
+.image-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 624px;
+    height: 342px;
+    border-radius: 40px;
+    background: #EDEDF2;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    line-height: 30px;
+    color: #95959D;
+}
+
+.image-form {
+    position: relative;
+}
+
+.image-form::before {
+    content: url(../image/Ellipse\ 1.svg);
+    position: absolute;
+    top: 98px;
+    left: 262px;
+}
+
+.image-form:hover::before {
+    content: url(../image/Ellipse2.svg);
+}
+
+.image-form:focus::before {
+    content: url(../image/Ellipse2.svg);
+}
+
+.image-form:active::before {
+    content: url(../image/Ellipse\ 3.svg);
+}
+
+.image-form__text {
+    padding-top: 117px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+}
+/* image-form-end */
+
+/* input-telegram-start */
+.input-telegram {
+    padding: 23px 0px 23px 30px;
+    border-radius: 40px;
+    background-color: #EDEDF2;
+}
+
+.input-telegram:focus-within {
+    padding: 21px -2px 21px 28px;
+    border: 2px solid #EDEDF2;
+    background-color: transparent;
+}
+
+.input-telegram:active {
+    padding: 21px -2px 21px 28px;
+    border: 2px solid #EDEDF2;
+    background-color: transparent;
+}
+/* input-telegram-end */
