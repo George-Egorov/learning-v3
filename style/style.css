@@ -48,6 +48,7 @@ body {
     font-weight: bold;
     border-radius: 40px;
     cursor: pointer;
+    transition: color 0.3s, background 0.3s;
 }
 
 .button--wide {
@@ -64,11 +65,7 @@ body {
     background-color: #000000;
 }
 
-.button--black:hover {
-    background-color: #46F4DB;
-    color: #000000;
-}
-
+.button--black:hover,
 .button--black:focus {
     background-color: #46F4DB;
     color: #000000;
@@ -83,10 +80,7 @@ body {
     background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
 }
 
-.button--gradient:hover {
-    background: #46F4DB;
-}
-
+.button--gradient:hover,
 .button--gradient:focus {
     background: #46F4DB;
 }
@@ -102,30 +96,24 @@ body {
 }
 
 .button--border-gradient:hover {
-    padding: 30px 59px;
+    padding: 29px 59px;
     border: none;
     background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
-    color: #000000;
 }
 
 .button--border-gradient:focus {
     background: #46F4DB;
-    color: #000000;
 }
 
 .button--border-gradient:active {
     background: #57D272;
-    color: #000000;
 }
 
 .button--blu {
     background: #46F4DB;
 }
 
-.button--blu:hover {
-    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
-}
-
+.button--blu:hover,
 .button--blu:focus {
     background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
 }
@@ -139,10 +127,7 @@ body {
     background: #ffffff;
 }
 
-.button--transparent:hover {
-    background: #46F4DB;
-}
-
+.button--transparent:hover,
 .button--transparent:focus {
     background: #46F4DB;
 }
@@ -156,6 +141,7 @@ body {
 /* nav-link-start */
 .nav-link {
     font-weight: bold;
+    transition: color 0.3s, opacity 0.3s;
 }
 
 .nav-link--header {
@@ -167,12 +153,13 @@ body {
 }
 
 .nav-link--header:focus {
-    padding: 2px 8px;
+    padding: 1px 8px;
     border: 2px solid #57D272;
     color: #000000;
 }
 
 .nav-link--header:active {
+    padding: 2px 10px;
     border: none;
     color: #57D272;
 }
@@ -209,28 +196,19 @@ body {
     color: #ffffff;
 }
 
-.pagination:hover {
-    padding: 8px 22px;
-    border: none;
-    background-color: #FF6F6F;
-}
-
+.pagination:hover,
 .pagination:focus {
-    padding: 8px 22px;
-    border: none;
     background-color: #FF6F6F;
+    border-color: #FF6F6F;
 }
 
 .pagination:active {
     background-color: #D13130;
+    border-color: #D13130;
 }
 /* pagination-end */
 
 /* input-start */
-input[type=file] {
-    display: none;
-}
-
 .input {
     padding: 23px 10px 23px 32px;
     width: 100%;
@@ -242,26 +220,20 @@ input[type=file] {
 .input--dark {
     background-color: #000000;
     border-color: #000000;
+    color: #EDEDF2;
 }
 
 .input--dark::placeholder {
     color: #EDEDF2;
 }
 
-.input--dark:focus {
-    background: none;
-    border-color: #000000;
-}
-
-.input--dark:focus::placeholder {
-    color: #000000;
-}
-
+.input--dark:focus,
 .input--dark:active {
     background: none;
     border-color: #000000;
 }
 
+.input--dark:focus::placeholder,
 .input--dark:active::placeholder {
     color: #000000;
 }
@@ -275,11 +247,7 @@ input[type=file] {
     color: #717178
 }
 
-.input--light:focus {
-    background-color: #FFFFFF;
-    border-color: #EDEDF2;
-}
-
+.input--light:focus,
 .input--light:active {
     background-color: #FFFFFF;
     border-color: #EDEDF2;
@@ -304,18 +272,13 @@ input[type=file] {
     left: 262px;
 }
 
-.file-picker:hover::after {
-    content: url(../image/Ellipse2.svg);
-    position: absolute;
-    top: 100px;
-    left: 262px;
-}
-
+.file-picker:hover::after,
 .file-picker:focus::after {
     content: url(../image/Ellipse2.svg);
     position: absolute;
     top: 100px;
     left: 262px;
+
 }
 
 .file-picker:active::after {
@@ -330,5 +293,9 @@ input[type=file] {
     top: 222px;
     left: 154px;
     color: #95959D;
+}
+
+.file-picker__input[type=file] {
+    display: none;
 }
 /* file-picker-end */
