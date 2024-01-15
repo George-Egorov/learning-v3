@@ -20,24 +20,23 @@ body {
     color: #FFFFFF;
 }
 
-.box--black {
+.box {
     margin: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+.box--black {
     width: 60px;
     height: 40px;
     background-color: #000000;
 }
 
 .box--red {
-    margin: 20px;
-    width: 500px;
-    height: 100px;
     background-color: #D13130;
 }
 
 .box--white {
-    margin: 20px;
-    width: 500px;
-    height: 100px;
     background-color: #FFFFFF;
 }
 
