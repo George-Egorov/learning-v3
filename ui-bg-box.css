@@ -1,0 +1,23 @@
+.dark-theme {
+    color: #FFFFFF;
+}
+
+.box {
+    margin: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+.box--black {
+    width: 60px;
+    height: 40px;
+    background-color: #000000;
+}
+
+.box--red {
+    background-color: #D13130;
+}
+
+.box--white {
+    background-color: #FFFFFF;
+}
